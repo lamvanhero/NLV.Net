@@ -12,7 +12,6 @@ namespace NLVNet.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
             var repo = new AccountRepository();
             var lst = repo.GetAll();
             return View();
