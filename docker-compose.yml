@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nlvnet:
+    image: ${DOCKER_REGISTRY}nlvnet
+    build:
+      context: .\NLVNet
+      dockerfile: Dockerfile
