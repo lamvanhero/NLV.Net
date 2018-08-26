@@ -14,6 +14,7 @@ namespace NLVNet.Controllers
         {
             var repo = new AccountRepository();
             var lst = repo.GetAll();
+
             return View();
         }
     }
