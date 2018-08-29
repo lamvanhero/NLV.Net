@@ -16,6 +16,7 @@ namespace NLVNet.Controllers
             var lst = repo.GetAll();
 
             return View();
+
         }
     }
 }
