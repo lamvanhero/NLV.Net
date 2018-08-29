@@ -293,9 +293,17 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\NLVNet.Data\NLVNet.Data.csproj">
+    <ProjectReference Include="..\NLVNet.Common\NLVNet.Common.csproj">
+      <Project>{e54dfeed-0b66-4e0b-a627-e62821ce8644}</Project>
+      <Name>NLVNet.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NLVNet.Data\NLVNet.Data.csproj">
       <Project>{bc8834a0-cf20-4b39-9097-aefcb71a8d7e}</Project>
       <Name>NLVNet.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NLVNet.Service\NLVNet.Service.csproj">
+      <Project>{18cf171e-5717-4158-a4ab-1abed5c11bc5}</Project>
+      <Name>NLVNet.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
